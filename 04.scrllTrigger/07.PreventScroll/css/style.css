@@ -1,0 +1,65 @@
+
+
+section{
+  height: 100vh;
+  position: relative;
+
+}
+
+#no-scroll{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+
+h2{
+  margin:0;
+  font-size: 5vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+#container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  
+
+}
+
+.visual01{
+  position: absolute;
+  left: 10vw;
+  top: 14vh;
+}
+.visual02{
+  position: absolute;
+  left: 50%;
+  margin-left: -193px;
+  top: 42vh;
+}
+
+.visual03{
+  position: absolute;
+  right: 10vw;
+  top: 24vh;
+}
+
+
+svg{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}

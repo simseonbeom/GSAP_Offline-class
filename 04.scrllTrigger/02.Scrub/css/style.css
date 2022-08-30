@@ -1,0 +1,116 @@
+
+
+section{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+h2{
+  font-size: 5vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  /* opacity: 0; */
+}
+
+.section02{
+  z-index: 10;
+
+}
+
+.videoContainer{
+  width: 50vw;
+  height: 50vh;
+  overflow:hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.videoContainer video{
+  height: 100%;
+}
+
+
+.feev{
+  position: absolute;
+  left: 10vw;
+  top: -10vh;
+}
+
+.solution{
+  position: absolute;
+  left: 50%;
+  margin-left: -105.5px;
+  top: 30vh;
+}
+
+.hyper{
+  position: absolute;
+  right: 10vw;
+  top: -30vh;
+}
+
+
+.feev_text{
+  font-size: 30vw;
+  color: rgb(110, 206, 218);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-weight: bold;
+  z-index: 100;
+}
+
+
+
+
+.visual01{
+  position: absolute;
+  left: 10vw;
+  top: 14vh;
+}
+
+.description{
+  opacity:0;
+  
+}
+
+.visual01 .description{
+  position: absolute;
+  left: 0;
+  bottom: -230px;
+  transform: translateX(-100px)
+}
+
+
+.visual03 .description{
+  position: absolute;
+  left: 0;
+  top: -240px;
+  transform: translateX(100px)
+}
+
+
+.visual02{
+  position: absolute;
+  left: 50%;
+  margin-left: -193px;
+  top: 42vh;
+}
+
+.visual03{
+  position: absolute;
+  right: 10vw;
+  top: 24vh;
+}
+
+

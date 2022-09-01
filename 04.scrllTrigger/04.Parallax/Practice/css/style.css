@@ -23,6 +23,11 @@ svg {
       position: fixed;
       top: 0;
       left: 0;
+      perspective: 600;
+}
+
+svg > *{
+  transform-style: preserve-3d;
 }
   
 .scrollElement {

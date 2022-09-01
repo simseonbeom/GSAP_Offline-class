@@ -32,18 +32,43 @@ ScrollTrigger.defaults({ scroller: container });
 
 
 
+const h2 = document.querySelector('.section02 h2');
 
 gsap.to('.section02 h2', {
   x: 300,
   scrollTrigger: {
     trigger: '.section02',
-    start: 'top center',
-    end: 'bottom center',
+    start: '30% center',
+    end: '60% center',
     scrub: 1,
     markers: true,
+    onEnter: ()=>{
+      h2.textContent = 'Enter'
+    },
+    onLeave: ()=>{
+      h2.textContent = 'Leave'
+    },
+    onEnterBack: ()=>{
+      h2.textContent = 'EnterBack'
+    },
+    onLeaveBack: ()=>{
+      h2.textContent = 'LeaveBack'
+    },
+    onUpdate: (self)=>{
+      console.log(self);
+      h2.textContent = 'Update'
+    },
+    onRefresh: ()=>{
+
+      console.log('refresh')
+    }
 
   },
 });
+
+
+
+
 
 
 

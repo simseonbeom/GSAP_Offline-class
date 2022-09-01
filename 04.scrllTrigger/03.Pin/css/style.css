@@ -27,6 +27,7 @@ p {
   height: initial !important;
   background: #000;
   z-index: 10;
+  /* height: 700px; */
 }
 .inner {
   display: flex;

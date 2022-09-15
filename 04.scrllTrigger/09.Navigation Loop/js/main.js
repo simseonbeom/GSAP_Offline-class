@@ -31,6 +31,7 @@ gsap.utils.toArray('.section').forEach((section,index)=>{
     end: ()=> 'bottom ' + navHeight(),
     animation: gsap.to('.nav',{backgroundColor:navColor[index],immediateRender:false}),
     markers: true,
+    // event          E      L    EB    LB
     toggleActions: 'restart none none reverse'
     
   })

@@ -34,7 +34,8 @@ h2{
   top: 50%;
   transform: translateY(-50%);
   z-index: 9999;
-  display: none;
+  /* display: none; */
+  mix-blend-mode: difference;
 }
 .progress{
   width: 2px;
@@ -50,7 +51,8 @@ h2{
 .lnb ul{
   list-style: none;
   margin: 0;
-  padding: 0
+  padding: 0;
+  color: #fff;
 }
 
 .lnb ul > li{

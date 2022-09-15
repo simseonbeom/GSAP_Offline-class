@@ -1,0 +1,113 @@
+
+
+section{
+  height: 100vh;
+  position: relative;
+}
+
+h2{
+  font-size: 5vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#container{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.section01{
+  background: url('../assets/watch/watch.png') no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section02{
+  height: initial;
+  overflow: hidden;
+}
+
+
+.watch{
+  padding-top: 10vw;
+  margin-left:20vw;
+  display: flex;
+  flex-direction: column;
+  /* gap:2vw; */
+  align-items: center;
+}
+
+.section03{
+  background: #0a0a0a;
+  display:flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.thumb01{
+  position: absolute;
+  left: 5vw;
+  top: 5vw;
+}
+.thumb02{
+  position: absolute;
+  left: 35vw;
+  bottom: 10vw;
+}
+
+.thumb03{
+  position: absolute;
+  right: 5vw;
+  top: 15vw;
+}
+
+@media (max-width:500px) {
+
+  .title{
+    max-width: 70vw;
+    
+  }
+  .title img{
+    width: 100%;
+  }
+  .watch > div{
+    max-width: 50vw;
+  }
+  .watch > div img{
+    width: 100%;
+  }
+
+  .section03 {
+    justify-content: center;
+  }
+  .section03 .thumb{
+    max-width: 30vw;
+  }
+
+  .section03 .typo{
+    transform:rotate(-90deg)
+  }
+
+  .thumb01{
+    
+    top: 15vw;
+  }
+  .thumb02{
+    
+    bottom: 30vw;
+  }
+  
+  .thumb03{
+    top: 35vw;
+  }
+
+  .section03 .thumb img{
+    width: 100%;
+  }
+}
